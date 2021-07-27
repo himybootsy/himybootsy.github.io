@@ -1,0 +1,8 @@
+@import './home/index.scss';
+@import './settings/index.scss';
+@import './ace/index.scss';
+@import './snippets/index.scss';
+@import './requests/index.scss';
+.App>div:not(.navigation):not(.footer) {
+    min-height: calc(100vh - 40px - 5rem);
+}

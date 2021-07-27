@@ -1,0 +1,8 @@
+.react-monaco-editor-container {
+    margin-left: 1rem;
+    border: var(--bold-bolder) solid 2px;
+    @supports (contain: strict) {
+        border-radius: .5rem;
+        contain: strict;
+    }
+}

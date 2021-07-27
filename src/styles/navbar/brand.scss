@@ -1,0 +1,10 @@
+.navbar-brand {
+    position: absolute;
+    left: 4px;
+    top:  4px;
+    font-size: 24px;
+    color: var(--text-color);
+    &:not(:hover) {
+        text-decoration: none;
+    }
+}

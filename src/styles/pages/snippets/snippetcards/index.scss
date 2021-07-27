@@ -1,0 +1,25 @@
+.snippetcard {
+    max-height: 20rem;
+    position: relative;
+    margin: .5rem;
+    &>span {
+        max-height: 15rem;
+        border-radius: 6px !important;
+        border: 2px solid var(--background-secondary-alt);
+        @import './syntax.scss';
+        @import './scrollbar.scss';
+        &>code:first-child {
+            user-select: none;
+            border-right: 2px solid var(--background-secondary-alt);
+            height: 100%;
+            position: sticky;
+            left: 0;    
+            background: rgb(30, 30, 30);
+        }
+    }
+    button {
+        position: absolute;
+        bottom: 5px;
+        right: 12px;
+    }
+}

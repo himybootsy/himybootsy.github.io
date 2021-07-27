@@ -1,0 +1,11 @@
+svg{
+    fill: var(--text-color);
+    @import './bdLogo.scss';
+    @import './settings.scss';
+    @import './snippets.scss';
+    &+.__react_component_tooltip {
+        border-radius: 3px;
+        padding: 8px 6px;
+        text-align: center;
+    }
+}

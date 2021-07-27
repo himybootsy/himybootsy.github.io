@@ -1,0 +1,9 @@
+#AceEditor.whole {
+    width: 660px !important;
+    height: calc(90vh - 40px)  !important;
+    font-size: 13px;
+    position: fixed;
+    top: calc(40px + 50%);
+    left: 50%;
+    transform: translate(-50%, calc(-50% - 40px));
+}

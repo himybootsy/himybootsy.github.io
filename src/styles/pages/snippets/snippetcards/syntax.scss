@@ -1,0 +1,17 @@
+.token {
+    &.class {
+        color: #d7ba7d;
+    }
+    &.property {
+        color: #9cdcfe;
+    }
+    &.unit {
+        color: #b5cea8;
+    }
+    &[style="color: rgb(220, 220, 220);"] {
+        color: #dcdcaa !important;
+    }
+    &[style="color: rgb(189, 99, 197);"]{
+        color: #9cdcfe !important;
+    }
+}

@@ -1,0 +1,22 @@
+html {
+    font-family: 'whitney', sans-serif;
+    color-scheme: dark;
+    @import './navbar/index.scss';
+    @import './vars.scss';
+    @import './pages/index.scss';
+    @import './footer/index.scss';
+    body {
+        margin: 0;
+        overflow-y: scroll;
+        background: var(--background-primary);
+    }
+    #load {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1000000;
+        background: var(--background-primary);
+    }
+}

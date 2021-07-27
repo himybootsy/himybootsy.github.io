@@ -1,0 +1,53 @@
+.switchtype {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width:  36px;
+    height: 36px;
+    padding: 6px;
+    border-radius: 50%;
+    background: var(--background-secondary);
+    cursor: pointer;
+    .css .scss {
+        display: none;
+    }
+    .scss .css {
+        display: none;
+    }
+    #SassCss{
+        width:  36px;
+        height: 36px;
+        position: absolute;
+        top: 6px;
+        left: 6px;
+    }
+    button {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right:  0;
+        appearance: unset;
+        -webkit-writing-mode: unset !important;
+        text-rendering: unset;
+        color: unset;
+        letter-spacing: unset;
+        word-spacing: unset;
+        text-transform: unset;
+        text-indent: unset;
+        text-shadow: unset;
+        display: unset;
+        text-align: unset;
+        align-items: unset;
+        cursor: unset;
+        background-color: unset;
+        box-sizing: unset;
+        margin: unset;
+        font: unset;
+        padding: unset;
+        border-width: unset;
+        border-style: unset;
+        border-color: unset;
+        border-image: unset;
+    }
+}

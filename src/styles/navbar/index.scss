@@ -1,0 +1,23 @@
+.navigation {
+    height: 40px;
+    position: relative;
+    background: var(--background-secondary);
+    @import './svg/index.scss';
+    @import './brand.scss';
+    &>div {
+        position: absolute;
+        right: 4px;
+        top:   4px;
+        display: flex;
+    }
+    .nav-item {
+        height: 32px;
+        width: 32px;
+        margin-left: 6px;
+        border-radius: 50%;
+        &.active {
+            background: var(--background-secondary-alt);
+            pointer-events: none;
+        }
+    }
+}

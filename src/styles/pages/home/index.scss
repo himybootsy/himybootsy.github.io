@@ -1,0 +1,6 @@
+.home {
+    @import './frontstyle.scss';
+    &+.footer {
+        display: none;
+    }
+}
